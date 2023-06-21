@@ -35,4 +35,4 @@ Utilização otimizada de memória: A alocação dinâmica de memória evita o d
 Maior facilidade de manutenção: O sistema de listas é mais modular e flexível, facilitando a manutenção e extensão do código.
 
 ## Considerações finais
-A mudança para o sistema de listas em Transportes foi uma escolha estratégica para melhorar a eficiência e flexibilidade do programa. Com essa nova abordagem, esperamos obter um sistema mais robusto e escalável para lidar com a gestão de transportes.
+A mudança para o sistema de listas em Transportes foi uma escolha estratégica para melhorar a eficiência e flexibilidade do programa. Com essa nova abordagem, obtenho um sistema mais robusto e escalável para lidar com a gestão de transportes.
