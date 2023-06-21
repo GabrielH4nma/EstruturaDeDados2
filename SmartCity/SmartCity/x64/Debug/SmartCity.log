@@ -1,0 +1,107 @@
+﻿  Client.c
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(27,3): error C2371: 'Cliente': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,24): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(24,3): error C2371: 'Gestor': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(16,23): message : consulte a declaração de 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(29,17): error C2079: 'novoCliente' usa struct 'Cliente' indefinido
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(30,29): error C2224: esquerda de '.nif' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(30,50): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(30,39): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(30,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(31,29): error C2224: esquerda de '.nome' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(31,52): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(31,41): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(31,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(32,29): error C2224: esquerda de '.morada' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(32,56): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(32,45): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(32,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(33,21): error C2224: esquerda de '.saldo' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(34,45): error C2440: '=': não é possível converter de 'int' para 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(30,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(31,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(32,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(57,28): error C2037: esquerda de 'nif' especifica struct/union indefinida 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(57,13): error C2198: 'strcmp': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(70,80): error C2027: uso de tipo indefinido 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,16): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(72,1): error C2036: 'Cliente *': tamanho desconhecido
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(96,20): error C2037: esquerda de 'nome' especifica struct/union indefinida 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(96,5): error C2198: 'strcpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(97,20): error C2037: esquerda de 'morada' especifica struct/union indefinida 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(97,5): error C2198: 'strcpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(98,13): error C2037: esquerda de 'saldo' especifica struct/union indefinida 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(96,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Client.c(97,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Gestor.c
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(27,3): error C2371: 'Cliente': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,24): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(24,3): error C2371: 'Gestor': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(16,23): message : consulte a declaração de 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(29,16): error C2079: 'novoGestor' usa struct 'Gestor' indefinido
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(30,28): error C2224: esquerda de '.username' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(30,58): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(30,48): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(30,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(31,28): error C2224: esquerda de '.password' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(31,58): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(31,48): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(31,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(32,28): error C2224: esquerda de '.nome' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(32,50): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(32,40): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(32,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(33,28): error C2224: esquerda de '.email' deve possuir tipo struct/union
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(33,52): warning C4047: 'função': 'const char *' difere em níveis de indireção de 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(33,42): warning C4024: 'strncpy': tipos diferentes para parâmetro formal e real 2
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(33,9): error C2198: 'strncpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(34,44): error C2440: '=': não é possível converter de 'int' para 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(30,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(31,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(32,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(33,9): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(57,28): error C2037: esquerda de 'username' especifica struct/union indefinida 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(57,13): error C2198: 'strcmp': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(69,80): error C2027: uso de tipo indefinido 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(16,16): message : consulte a declaração de 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(69,81): warning C4047: '=': 'Gestor *' difere em níveis de indireção de 'Gestor **'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(71,1): error C2036: 'Gestor *': tamanho desconhecido
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(94,20): error C2037: esquerda de 'nome' especifica struct/union indefinida 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(94,5): error C2198: 'strcpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(95,20): error C2037: esquerda de 'email' especifica struct/union indefinida 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(95,5): error C2198: 'strcpy': poucos argumentos para chamada
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(94,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.c(95,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Grafo.c
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(27,3): error C2371: 'Cliente': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,24): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Grafo.c(70,12): warning C4013: 'sqrt' indefinido; assumindo extern retornando int
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Grafo.c(105,21): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Grafo.c(120,21): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SmartCity.c
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(27,3): error C2371: 'Cliente': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,24): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(24,3): error C2371: 'Gestor': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(16,23): message : consulte a declaração de 'Gestor'
+  Transport.c
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(27,3): error C2371: 'Cliente': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Clientes.h(19,24): message : consulte a declaração de 'Cliente'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(24,3): error C2371: 'Gestor': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Gestor.h(16,23): message : consulte a declaração de 'Gestor'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(22,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(142,5): error C2371: 'AlterarTransporte': redefinição; tipos básicos diferentes
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transportes.h(46,6): message : consulte a declaração de 'AlterarTransporte'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(151,13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(214,9): warning C4013: 'time' indefinido; assumindo extern retornando int
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(215,91): warning C4013: 'ctime' indefinido; assumindo extern retornando int
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(215,16): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 1 tem o tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(215,16): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 1 do tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(215,16): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 2 tem o tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(215,16): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 2 do tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(245,12): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 1 tem o tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(245,12): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 1 do tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(246,12): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 1 tem o tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(246,12): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 1 do tipo 'int'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(270,75): warning C4113: 'int (__cdecl *)(Transport,Transport)' difere em listas de parâmetro de '_CoreCrtNonSecureSearchSortCompareFunction'
+C:\Users\guilh\Desktop\25242\SmartCity\Estrutura de dados\EstruturaDeDados\SmartCity\SmartCity\Transport.c(275,9): warning C4013: 'printMobility' indefinido; assumindo extern retornando int
+  Gerando Código...
